@@ -1,113 +1,114 @@
-{
-  "_id": "prod_elec_001",
-  "name": "Smartphone X12",
-  "category": "Electronics",
-  "brand": "TechAlmond",
-  "price": 29999,
-  "currency": "INR",
-  "stock": 120,
-  "specifications": {
-    "processor": "Octa-core 2.4GHz",
-    "ram": "8GB",
-    "storage": "128GB",
-    "battery": "5000mAh",
-    "voltage": "5V"
-  },
-  "warranty": {
-    "period_months": 12,
-    "type": "Manufacturer",
-    "details": "Covers manufacturing defects only"
-  },
-  "features": [
-    "Fast Charging",
-    "AMOLED Display",
-    "5G Enabled"
-  ],
-  "ratings": {
-    "average": 4.5,
-    "reviews_count": 320
-  }
-}
-
-
-{
-  "_id": "prod_cloth_001",
-  "name": "Men's Casual T-Shirt",
-  "category": "Clothing",
-  "brand": "UrbanWear",
-  "price": 799,
-  "currency": "INR",
-  "stock": 250,
-  "variants": [
-    {
-      "size": "M",
-      "color": "Black",
-      "sku": "TSHIRT-BLK-M",
-      "stock": 80
+[
+  {
+    "_id": "prod_elec_001",
+    "name": "Smartphone X12",
+    "category": "Electronics",
+    "brand": "TechAlmond",
+    "price": 29999,
+    "currency": "INR",
+    "stock": 120,
+    "specifications": {
+      "processor": "Octa-core 2.4GHz",
+      "ram": "8GB",
+      "storage": "128GB",
+      "battery": "5000mAh",
+      "voltage": "5V"
     },
-    {
-      "size": "L",
-      "color": "Black",
-      "sku": "TSHIRT-BLK-L",
-      "stock": 70
+    "warranty": {
+      "period_months": 12,
+      "type": "Manufacturer",
+      "details": "Covers manufacturing defects only"
     },
-    {
-      "size": "M",
-      "color": "White",
-      "sku": "TSHIRT-WHT-M",
-      "stock": 100
+    "features": [
+      "Fast Charging",
+      "AMOLED Display",
+      "5G Enabled"
+    ],
+    "ratings": {
+      "average": 4.5,
+      "reviews_count": 320
     }
-  ],
-  "material": {
-    "fabric": "Cotton",
-    "blend_percentage": "100%"
   },
-  "care_instructions": [
-    "Machine wash cold",
-    "Do not bleach",
-    "Iron at low temperature"
-  ],
-  "fit": "Regular Fit",
-  "ratings": {
-    "average": 4.2,
-    "reviews_count": 150
-  }
-}
+
+  {
+    "_id": "prod_cloth_001",
+    "name": "Men's Casual T-Shirt",
+    "category": "Clothing",
+    "brand": "UrbanWear",
+    "price": 799,
+    "currency": "INR",
+    "stock": 250,
+    "variants": [
+      {
+        "size": "M",
+        "color": "Black",
+        "sku": "TSHIRT-BLK-M",
+        "stock": 80
+      },
+      {
+        "size": "L",
+        "color": "Black",
+        "sku": "TSHIRT-BLK-L",
+        "stock": 70
+      },
+      {
+        "size": "M",
+        "color": "White",
+        "sku": "TSHIRT-WHT-M",
+        "stock": 100
+      }
+    ],
+    "material": {
+      "fabric": "Cotton",
+      "blend_percentage": "100%"
+    },
+    "care_instructions": [
+      "Machine wash cold",
+      "Do not bleach",
+      "Iron at low temperature"
+    ],
+    "fit": "Regular Fit",
+    "ratings": {
+      "average": 4.2,
+      "reviews_count": 150
+    }
+  },
 
 
-{
-  "_id": "prod_groc_001",
-  "name": "Organic Cow Milk",
-  "category": "Groceries",
-  "brand": "FarmFresh",
-  "price": 60,
-  "currency": "INR",
-  "stock": 500,
-  "quantity": {
-    "value": 1,
-    "unit": "liter"
-  },
-  "expiry": {
-    "manufacture_date": "2026-03-20",
-    "expiry_date": "2026-03-25"
-  },
-  "nutritional_info": {
-    "calories_per_100ml": 60,
-    "fat": "3.5g",
-    "protein": "3.2g",
-    "carbohydrates": "5g"
-  },
-  "storage_instructions": [
-    "Keep refrigerated",
-    "Consume within 2 days after opening"
-  ],
-  "is_organic": true,
-  "supplier": {
-    "name": "Green Valley Farms",
-    "location": "Pune, India"
-  },
-  "ratings": {
-    "average": 4.7,
-    "reviews_count": 210
+  {
+    "_id": "prod_groc_001",
+    "name": "Organic Cow Milk",
+    "category": "Groceries",
+    "brand": "FarmFresh",
+    "price": 60,
+    "currency": "INR",
+    "stock": 500,
+    "quantity": {
+      "value": 1,
+      "unit": "liter"
+    },
+    "expiry": {
+      "manufacture_date": "2026-03-20",
+      "expiry_date": "2026-03-25"
+    },
+    "nutritional_info": {
+      "calories_per_100ml": 60,
+      "fat": "3.5g",
+      "protein": "3.2g",
+      "carbohydrates": "5g"
+    },
+    "storage_instructions": [
+      "Keep refrigerated",
+      "Consume within 2 days after opening"
+    ],
+    "is_organic": true,
+    "supplier": {
+      "name": "Green Valley Farms",
+      "location": "Pune, India"
+    },
+    "ratings": {
+      "average": 4.7,
+      "reviews_count": 210
+    }
   }
-}
+]
